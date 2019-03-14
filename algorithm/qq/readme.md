@@ -19,4 +19,29 @@ QQ 631758924  加密过后的
  只在数组最后面进行操作， Stack栈  push(入栈) pop(出栈)
  在数组的最前面移除一个元素，在最后面插入一个元素 shift()  + push()  队列
  技术数组最廉价的数据结构，
- 
+ js 组织代码的方式
+ 语句； 一条代码
+ 函数 function（） {}为了一功能 小于10行代码
+ 代码块{}  没得到一个正确的QQ号码
+ 抽象是最重要的
+
+数值型 123
+布尔值
+字符串
+null
+undefined  未定义
+Symbol
+以上六种称为基本数据类型
+其它的都是object 复杂数据类型
+
+
+
+
+作用域 scope
+全局作用域 window
+window.name（js 独有 宿主是浏览器窗口） == name (其他语言也一样)
+
+
+object 类
+json object 难以玩成此job
+玩家类 es5 没有class

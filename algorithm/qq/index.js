@@ -12,7 +12,7 @@ let enc_qq = [6,3,1,7,5,8,9,2,4],
     head++;
   }
   // enc_qq.shift();
-  console.log(typeof qq);
+  console.log(qq);
 // enc_qq.shift();
 // console.log(enc_qq);
 // enc_qq.unshift(0);
