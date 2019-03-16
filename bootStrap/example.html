@@ -122,10 +122,10 @@
     //   dog: 's'
     // }
     const tableBody = document
-    .getElementById('tableBody');
+    .getElementById('tableBody');//得到输入框的值
     function insert(item) {
       let keys = Object.keys(item);
-      const tr = document.createElement('tr');
+      const tr = document.createElement('tr');//创建tr节点
       // ['name', 'age', 'sex', 'dog']
       for (let i = 0; i < keys.length; i++) {
         const td = document.createElement('td');

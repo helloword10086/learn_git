@@ -10,12 +10,12 @@
    <script>
     const hongbao = (total,num) =>{
     const arr = [];
-    let restAmount = total, restNum =num;
-    for(let i = 0; i<num -1; i++){
-        let amount= parseFloat((Math.random()*(restAmount/restNum)*2).tofixd(2));
+    let restAmount = total, Num =num;
+    for(let i = 0; i<Num -1; i++){
+        let amount= parseFloat((Math.random()*(restAmount/Num)*2).toFixed(2));
         restAmount -= amount;
-        restNum--;
-    arr.push(amount)
+        
+    arr.push(amount);
     }
     return arr
     }

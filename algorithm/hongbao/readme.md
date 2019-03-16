@@ -24,3 +24,7 @@ js 是单线程，事件是异步的 事件处理函数肯定注册在哪  当�
 toFixed(2)表示取小数点后两位
 parseFoat 将字符串转换float的类型
 函数表达式
+用于 keydown、keyup 时：返回任意键值；
+addEventListener－event 对象的属性和方法(firefox)
+事件触发时，会将一个 Event 对象传递给事件处理程序，
+当按钮被按下时，发生 keydown 事件
